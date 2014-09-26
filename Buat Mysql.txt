@@ -1,0 +1,41 @@
+cdcara membuat mysql di cmd
+1.xampp start>apache		
+             >mysql
+2.Run>Cmd
+3.C:
+4.cd/insert
+5.cd xampp
+6.cd mysql
+7.cd bin
+8.mysql -u root
+
+>Create
+>insert
+>show databases
+>desc namatabel
+>select*from namatabel
+>use nama database
+
+
+>create database sekolah;
+>show databases;
+>use sekolah;
+>create table siswa (nis int(10)primary key,nama char(20),alamat text);
+>desc siswa;
+>insert into siswa(nis,nama,alamat)values("123","adie","jampang");
+>select*from siswa;
+
+mingisi tabel secara lngsung banyak tnggal pke koma...
+>insert into siswa(nis,nama,alamat)values("123","adie","jampang"),
+					 ("456","pratama","bogor")
+					 ("789","fuzi","jakarta"),
+					 ("763","lesmana","cinagen");
+alter table nama tabel drop primary key;
+alter table nama tabel change colomn nama kolom lama nama kolom baru type data;
+alter table nama tabel modify column nama kolom type data;
+
+select*from sparepart order by jenis_Sp asc;
+TUGAS 
+1. Tabel Isi kompleks
+2. Minimal isi Kolom (field)50
+3. Implementasikan menggunakan Query Having, grup by
